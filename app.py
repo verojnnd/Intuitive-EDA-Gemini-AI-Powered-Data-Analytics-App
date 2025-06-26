@@ -12,7 +12,7 @@ GEMINI_MODEL = "gemini-1.5-flash-latest"
 GEMINI_AVAILABLE = False
 
 # Google AI Studio API Key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDfu4HlCI_MFjPgee9WBH35k1qpVOmVjb4"
+os.environ["GOOGLE_API_KEY"] = "" # Fill with your own API Key
 
 try:
     if api_key := os.environ.get("GOOGLE_API_KEY"):
